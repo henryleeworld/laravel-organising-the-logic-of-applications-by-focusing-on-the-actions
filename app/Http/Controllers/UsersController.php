@@ -13,6 +13,6 @@ class UsersController extends Controller
         UpdateUserPassword::make();
         // Equivalent to "UpdateUserPassword::make()->handle($user, 'secret')".
         UpdateUserPassword::run($user, 'secret');
-        echo '變更密碼成功' . PHP_EOL;
+        echo __('Password changed successfully') . PHP_EOL;
     }
 }
