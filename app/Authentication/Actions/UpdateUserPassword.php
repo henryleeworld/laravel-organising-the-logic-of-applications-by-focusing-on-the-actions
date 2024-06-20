@@ -3,7 +3,6 @@
 namespace App\Authentication\Actions;
 
 use App\Models\User;
-use Illuminate\Support\Facades\Hash;
 use Lorisleiva\Actions\Concerns\AsAction;
 
 class UpdateUserPassword
@@ -12,7 +11,7 @@ class UpdateUserPassword
 
     public function handle(User $user, string $newPassword)
     {
-        $user->password = Hash::make($newPassword);
+        $user->password = $newPassword;
         $user->save();
     }
 
