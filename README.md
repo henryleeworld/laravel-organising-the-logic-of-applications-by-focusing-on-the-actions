@@ -1,4 +1,4 @@
-# Laravel 10 通過專注於動作來組織應用程式邏輯
+# Laravel 11 通過專注於動作來組織應用程式邏輯
 
 引入 lorisleiva 的 laravel-actions 套件來擴增通過專注於動作來組織應用程式邏輯，無需新增控制器、任務、監聽器等，它使您可以新增一個處理特定任務的 PHP 類別，並根據需要運行該類別。
 
@@ -26,5 +26,5 @@ $ php artisan migrate --seed
 ----
 
 ## 畫面截圖
-![](https://i.imgur.com/51zFned.png)
+![](https://i.imgur.com/Hu6Pgb6.png)
 > 可以專注於我的應用程式實際上是做什麼的開發思維
